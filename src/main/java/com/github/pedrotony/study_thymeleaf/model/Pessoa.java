@@ -9,6 +9,9 @@ public class Pessoa {
 	private LocalDate dataNasc;
 	private SexoType sexo;
 	
+	public Pessoa() {
+	}
+	
 	public Pessoa(Long id, String nome, LocalDate dataNasc, SexoType sexo) {
 		this.id = id;
 		this.nome = nome;
